@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>Book Store</title>
+<link rel="icon" href="images/icon.jpg" type="image">
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/login.css">
+
+</head>
+<body>
+
+<nav>
+<div class="topnav" id="myTopnav">
+<img  class ="logo" src="images/logo.png"/> 
+
+  <a  href="index.html"><img class="icon_home"    src="https://img.icons8.com/ios-filled/100/000000/home.png"/></a>
+  <div class = "demension" > 
+  <a class="navtext" href="books_catalog.html">Books Catalog</a>
+  <a class="navtext" href="shop.html">Shopping Cart</a>
+ <div class="rightcontainer" >
+  <a  href="login.html"><img class="icon_login"   src="https://img.icons8.com/android/96/000000/user.png"/></a>
+  <a class="navtextright" href="login.html">Login</a>
+  <a  href="signup.html"><img class="icon_signup"  src="https://img.icons8.com/android/96/000000/add-user-male.png"/></a>
+  <a class="navtextright" href="signup">Signup</a>
+ </div>
+ </div>
+ </div>    
+</nav>
+<div class ="transbox">
+<h3>Registration</h3>
+  <form  class="form-style-1">  
+  <label for="fname">Name : </label>
+  <input type="text" id="name" name="name" required ><br> <br> 
+  <label for="email">Email Id:</label>
+  <input type="email" id="email" name="email" required><br><br>
+  <label for="quality">What is your Profession : </label>
+  <input type="text" name="profession" list="like"><br><br>
+    <datalist id="like">
+      <option value="Student">
+      <option value="Teacher">
+    </datalist>
+  
+  
+ <aside>
+  <h3>Books you would like to study: </h3>
+  <input type="checkbox" id="fun" name="topic" value="fun">
+  <label for="fun">Fun books / Comedy</label><br>
+  <input type="checkbox" id="Romantic" name="topic" value="romantic">
+  <label for="welldesined">Romantic</label><br>
+  <input type="checkbox" id="Documentary" name="topic" value="documentary">
+  <label for="goodcolor">Documentary</label>
+  <div >
+  <table>
+    <tbody>
+      <tr>
+        <td><strong>would you like to receive the notification of newly released Books </strong></td><br>
+        <td><input type="radio" name="addServer" id="serverYes" value="1"></td>
+        <td>Yes</td>
+        <td><input type="radio" name="addServer" id="serverNo" value="1"></td>
+        <td>No</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br>  
+</aside>
+<br>
+  <input class ="btn" type="submit" value="Submit">
+  
+</form>
+</div>
+<footer>
+ <div style="text-align:center" class="bottom-container">
+   
+    <p class="copyright">© 2021 Rajnish Kumar .</p>
+  </div>
+</footer>
+
+</body>
+</html>
