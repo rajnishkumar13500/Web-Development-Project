@@ -1,0 +1,49 @@
+
+.form-style-1 {
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 13px  'Merriweather', serif;
+	
+}
+div.transbox {
+  margin: 30px 20%;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+.form-style-1 label{
+	
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.btn{
+
+padding:8px 10px;
+font-weight:bold;
+border-radius:10%;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+
+}
+
+
+
+
+
+p{
+  line-height:2;
+	
+}
+
+
+

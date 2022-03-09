@@ -1,0 +1,92 @@
+body {
+  margin:0px; 
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-image: url('https://images.shiksha.com/mediadata/images/articles/1585663218phpQMM9vl.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.logo{
+       
+   padding: 0px 10px;
+   margin:8px 1px;   
+   height:60px;
+   float:left;
+   
+   
+	
+}
+
+.icon_home{
+		
+	width:40px;
+	padding:8px;
+		
+}
+.topnav a:hover{
+  background-color: #555;
+  color: white;
+}
+.navtext{
+    padding : 17px 5px;
+	font-weight: bold;
+	
+}
+.navtextright{
+	  padding : 17px 5px;
+	  font-weight: bold;
+}
+.profile{
+	height:150px;
+}
+
+.rightcontainer{
+	float :right;
+	
+}
+.icon_login{
+	width:30px;
+	padding:12px 5px;
+	
+}
+.image_background{
+	width:100%;
+	opacity:50%;
+}
+.icon_signup{
+	width:35px;
+	padding:12px 5px;
+}
+
+.topnav {
+  overflow: hidden;
+  
+  text-align:center;
+  background-color: #0005;
+  width:100%;
+  opacity:0.8;
+ 
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  margin:10px;
+  
+  
+  text-decoration: none;
+  font-size: 20px;
+  
+  
+}
+  
+
+
+
+
+
